@@ -1,10 +1,10 @@
 class Ralph < Formula
   include Language::Python::Virtualenv
 
-  desc "Bootstrap projects with the Ralph Playbook methodology"
+  desc "AI development framework scaffolding and management"
   homepage "https://github.com/dwrekofc/ralph-playbook"
-  url "https://github.com/dwrekofc/ralph-playbook/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "04ac702d559ca8b7ff7e914c13a186416a205c8a8b16b7d8bfb75740535a11cb"
+  url "https://github.com/dwrekofc/ralph-playbook/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "5c60267deb12f834401da4bfd25796cd72df46e86d7b60025a7b5355605a2414"
 
   depends_on "python@3.12"
 
@@ -13,6 +13,6 @@ class Ralph < Formula
   end
 
   test do
-    assert_match "ralph-init", shell_output("#{bin}/ralph-init --help")
+    assert_match "ralph v", shell_output("#{bin}/ralph --help")
   end
 end

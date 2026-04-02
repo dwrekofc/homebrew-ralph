@@ -4,7 +4,7 @@ class Ralph < Formula
   desc "AI development framework scaffolding and management"
   homepage "https://github.com/dwrekofc/ralph-playbook"
   url "https://github.com/dwrekofc/ralph-playbook/archive/refs/tags/v0.5.0-beta.tar.gz"
-  sha256 "ddde3c0bfe99e9ef4617785f8f5ff33c938ff0a6785b157c765739687ae7df33"
+  sha256 "cf74ddabd24a6f0beb2ae820fb949a909d680a8375581d0f01484faf0ab93d9c"
 
   depends_on "python@3.12"
 

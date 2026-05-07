@@ -3,8 +3,8 @@ class Ralph < Formula
 
   desc "AI development framework scaffolding and management"
   homepage "https://github.com/dwrekofc/ralph-playbook"
-  url "https://github.com/dwrekofc/ralph-playbook/archive/refs/tags/v0.5.2-beta.tar.gz"
-  sha256 "a770b1fbdfc71888d4d3e4116da1c82bcc9b205e8afcfe08706355e8bf423926"
+  url "https://github.com/dwrekofc/ralph-playbook/archive/refs/tags/v0.5.3-beta.tar.gz"
+  sha256 "2ec9a9787d1473f74dc52f6cf884f38935bea1a873027f4f2801b67400eac820"
 
   depends_on "python@3.12"
 
